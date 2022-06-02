@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1525459F27EB9BD6000D5A24 /* BeachTennisCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525459E27EB9BD6000D5A24 /* BeachTennisCountApp.swift */; };
+		152545A127EB9BD6000D5A24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152545A027EB9BD6000D5A24 /* ContentView.swift */; };
+		152545B027EB9BDA000D5A24 /* BeachTennisCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152545AF27EB9BDA000D5A24 /* BeachTennisCountTests.swift */; };
+		152545BA27EB9BDA000D5A24 /* BeachTennisCountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152545B927EB9BDA000D5A24 /* BeachTennisCountUITests.swift */; };
+		152545BC27EB9BDA000D5A24 /* BeachTennisCountUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152545BB27EB9BDA000D5A24 /* BeachTennisCountUITestsLaunchTests.swift */; };
+		152545C927ECF5BD000D5A24 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152545C827ECF5BD000D5A24 /* GameScreen.swift */; };
+		152545CB27ED1F7B000D5A24 /* ScoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152545CA27ED1F7B000D5A24 /* ScoreScreen.swift */; };
+		1557BBDB27F3EC9200B3ADB9 /* PointsAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1557BBDA27F3EC9200B3ADB9 /* PointsAlgorithm.swift */; };
+		15C1940A27F3FE830074ECFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C1940927F3FE830074ECFE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152545AC27EB9BDA000D5A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1525459327EB9BD6000D5A24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1525459A27EB9BD6000D5A24;
+			remoteInfo = BeachTennisCount;
+		};
+		152545B627EB9BDA000D5A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1525459327EB9BD6000D5A24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1525459A27EB9BD6000D5A24;
+			remoteInfo = BeachTennisCount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1525459B27EB9BD6000D5A24 /* BeachTennisCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeachTennisCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1525459E27EB9BD6000D5A24 /* BeachTennisCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachTennisCountApp.swift; sourceTree = "<group>"; };
+		152545A027EB9BD6000D5A24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		152545AB27EB9BDA000D5A24 /* BeachTennisCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeachTennisCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152545AF27EB9BDA000D5A24 /* BeachTennisCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachTennisCountTests.swift; sourceTree = "<group>"; };
+		152545B527EB9BDA000D5A24 /* BeachTennisCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeachTennisCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152545B927EB9BDA000D5A24 /* BeachTennisCountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachTennisCountUITests.swift; sourceTree = "<group>"; };
+		152545BB27EB9BDA000D5A24 /* BeachTennisCountUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachTennisCountUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		152545C827ECF5BD000D5A24 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		152545CA27ED1F7B000D5A24 /* ScoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScreen.swift; sourceTree = "<group>"; };
+		1557BBDA27F3EC9200B3ADB9 /* PointsAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsAlgorithm.swift; sourceTree = "<group>"; };
+		15C1940927F3FE830074ECFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1525459827EB9BD6000D5A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152545A827EB9BDA000D5A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152545B227EB9BDA000D5A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1525459227EB9BD6000D5A24 = {
+			isa = PBXGroup;
+			children = (
+				1525459D27EB9BD6000D5A24 /* BeachTennisCount */,
+				152545AE27EB9BDA000D5A24 /* BeachTennisCountTests */,
+				152545B827EB9BDA000D5A24 /* BeachTennisCountUITests */,
+				1525459C27EB9BD6000D5A24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1525459C27EB9BD6000D5A24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1525459B27EB9BD6000D5A24 /* BeachTennisCount.app */,
+				152545AB27EB9BDA000D5A24 /* BeachTennisCountTests.xctest */,
+				152545B527EB9BDA000D5A24 /* BeachTennisCountUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1525459D27EB9BD6000D5A24 /* BeachTennisCount */ = {
+			isa = PBXGroup;
+			children = (
+				1525459E27EB9BD6000D5A24 /* BeachTennisCountApp.swift */,
+				152545A027EB9BD6000D5A24 /* ContentView.swift */,
+				152545C827ECF5BD000D5A24 /* GameScreen.swift */,
+				152545CA27ED1F7B000D5A24 /* ScoreScreen.swift */,
+				1557BBDA27F3EC9200B3ADB9 /* PointsAlgorithm.swift */,
+				15C1940927F3FE830074ECFE /* Assets.xcassets */,
+			);
+			path = BeachTennisCount;
+			sourceTree = "<group>";
+		};
+		152545AE27EB9BDA000D5A24 /* BeachTennisCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				152545AF27EB9BDA000D5A24 /* BeachTennisCountTests.swift */,
+			);
+			path = BeachTennisCountTests;
+			sourceTree = "<group>";
+		};
+		152545B827EB9BDA000D5A24 /* BeachTennisCountUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152545B927EB9BDA000D5A24 /* BeachTennisCountUITests.swift */,
+				152545BB27EB9BDA000D5A24 /* BeachTennisCountUITestsLaunchTests.swift */,
+			);
+			path = BeachTennisCountUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1525459A27EB9BD6000D5A24 /* BeachTennisCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152545BF27EB9BDA000D5A24 /* Build configuration list for PBXNativeTarget "BeachTennisCount" */;
+			buildPhases = (
+				1525459727EB9BD6000D5A24 /* Sources */,
+				1525459827EB9BD6000D5A24 /* Frameworks */,
+				1525459927EB9BD6000D5A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeachTennisCount;
+			productName = BeachTennisCount;
+			productReference = 1525459B27EB9BD6000D5A24 /* BeachTennisCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152545AA27EB9BDA000D5A24 /* BeachTennisCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152545C227EB9BDA000D5A24 /* Build configuration list for PBXNativeTarget "BeachTennisCountTests" */;
+			buildPhases = (
+				152545A727EB9BDA000D5A24 /* Sources */,
+				152545A827EB9BDA000D5A24 /* Frameworks */,
+				152545A927EB9BDA000D5A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152545AD27EB9BDA000D5A24 /* PBXTargetDependency */,
+			);
+			name = BeachTennisCountTests;
+			productName = BeachTennisCountTests;
+			productReference = 152545AB27EB9BDA000D5A24 /* BeachTennisCountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152545B427EB9BDA000D5A24 /* BeachTennisCountUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152545C527EB9BDA000D5A24 /* Build configuration list for PBXNativeTarget "BeachTennisCountUITests" */;
+			buildPhases = (
+				152545B127EB9BDA000D5A24 /* Sources */,
+				152545B227EB9BDA000D5A24 /* Frameworks */,
+				152545B327EB9BDA000D5A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152545B727EB9BDA000D5A24 /* PBXTargetDependency */,
+			);
+			name = BeachTennisCountUITests;
+			productName = BeachTennisCountUITests;
+			productReference = 152545B527EB9BDA000D5A24 /* BeachTennisCountUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1525459327EB9BD6000D5A24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1525459A27EB9BD6000D5A24 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					152545AA27EB9BDA000D5A24 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1525459A27EB9BD6000D5A24;
+					};
+					152545B427EB9BDA000D5A24 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1525459A27EB9BD6000D5A24;
+					};
+				};
+			};
+			buildConfigurationList = 1525459627EB9BD6000D5A24 /* Build configuration list for PBXProject "BeachTennisCount" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1525459227EB9BD6000D5A24;
+			productRefGroup = 1525459C27EB9BD6000D5A24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1525459A27EB9BD6000D5A24 /* BeachTennisCount */,
+				152545AA27EB9BDA000D5A24 /* BeachTennisCountTests */,
+				152545B427EB9BDA000D5A24 /* BeachTennisCountUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1525459927EB9BD6000D5A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C1940A27F3FE830074ECFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152545A927EB9BDA000D5A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152545B327EB9BDA000D5A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1525459727EB9BD6000D5A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152545CB27ED1F7B000D5A24 /* ScoreScreen.swift in Sources */,
+				152545A127EB9BD6000D5A24 /* ContentView.swift in Sources */,
+				152545C927ECF5BD000D5A24 /* GameScreen.swift in Sources */,
+				1525459F27EB9BD6000D5A24 /* BeachTennisCountApp.swift in Sources */,
+				1557BBDB27F3EC9200B3ADB9 /* PointsAlgorithm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152545A727EB9BDA000D5A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152545B027EB9BDA000D5A24 /* BeachTennisCountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152545B127EB9BDA000D5A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152545BA27EB9BDA000D5A24 /* BeachTennisCountUITests.swift in Sources */,
+				152545BC27EB9BDA000D5A24 /* BeachTennisCountUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152545AD27EB9BDA000D5A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1525459A27EB9BD6000D5A24 /* BeachTennisCount */;
+			targetProxy = 152545AC27EB9BDA000D5A24 /* PBXContainerItemProxy */;
+		};
+		152545B727EB9BDA000D5A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1525459A27EB9BD6000D5A24 /* BeachTennisCount */;
+			targetProxy = 152545B627EB9BDA000D5A24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152545BD27EB9BDA000D5A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		152545BE27EB9BDA000D5A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152545C027EB9BDA000D5A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeachTennisCount/Preview Content\"";
+				DEVELOPMENT_TEAM = 895264CP6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosapp.BeachTennisCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152545C127EB9BDA000D5A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeachTennisCount/Preview Content\"";
+				DEVELOPMENT_TEAM = 895264CP6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosapp.BeachTennisCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152545C327EB9BDA000D5A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 895264CP6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosapp.BeachTennisCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeachTennisCount.app/BeachTennisCount";
+			};
+			name = Debug;
+		};
+		152545C427EB9BDA000D5A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 895264CP6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosapp.BeachTennisCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeachTennisCount.app/BeachTennisCount";
+			};
+			name = Release;
+		};
+		152545C627EB9BDA000D5A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 895264CP6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosapp.BeachTennisCountUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeachTennisCount;
+			};
+			name = Debug;
+		};
+		152545C727EB9BDA000D5A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 895264CP6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosapp.BeachTennisCountUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeachTennisCount;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1525459627EB9BD6000D5A24 /* Build configuration list for PBXProject "BeachTennisCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152545BD27EB9BDA000D5A24 /* Debug */,
+				152545BE27EB9BDA000D5A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152545BF27EB9BDA000D5A24 /* Build configuration list for PBXNativeTarget "BeachTennisCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152545C027EB9BDA000D5A24 /* Debug */,
+				152545C127EB9BDA000D5A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152545C227EB9BDA000D5A24 /* Build configuration list for PBXNativeTarget "BeachTennisCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152545C327EB9BDA000D5A24 /* Debug */,
+				152545C427EB9BDA000D5A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152545C527EB9BDA000D5A24 /* Build configuration list for PBXNativeTarget "BeachTennisCountUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152545C627EB9BDA000D5A24 /* Debug */,
+				152545C727EB9BDA000D5A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1525459327EB9BD6000D5A24 /* Project object */;
+}
