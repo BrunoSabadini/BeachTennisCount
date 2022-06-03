@@ -26,7 +26,7 @@ struct GameScreen: View {
     var teamOne: String
     var teamTwo: String
     @EnvironmentObject var points:Points
-
+    
     
     var body: some View {
         ZStack {
@@ -34,6 +34,13 @@ struct GameScreen: View {
                 ScoreScreen(winner: points.whoWon == "oneWon" ? teamOne : teamTwo)
             })
             VStack {
+                HStack{
+                    Spacer()
+                    Text(teamOne)
+                    Spacer()
+                    Text(teamTwo)
+                    Spacer()
+                }
                 HStack{
                     Spacer()
                     Text(points.setCountTeamOne!)
@@ -50,14 +57,15 @@ struct GameScreen: View {
                         } label: {
                             Image("Beach")
                                 .resizable()
+                                .background(Color.blue)
                                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                                 .background(PlayersPhotos())
-                               
+                            
                         }
                         Text("Hold to decrease count")
                             .onLongPressGesture(minimumDuration: 1) {
                                 points.teamOneSetPointsDecrease()
-                    }
+                            }
                     }
                     VStack {
                         Button {
@@ -66,17 +74,17 @@ struct GameScreen: View {
                             Image("Beach").resizable()
                                 .background(Color.red)
                                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-//                            Text("\(teamTwo)")
-                                
+                            //                            Text("\(teamTwo)")
+                            
                         }
                         Text("Hold to decrease count")
                             .onLongPressGesture(minimumDuration: 1) {
                                 points.teamTwoSetPointsDecrease()
+                            }
                     }
+                }
+                
             }
         }
-        
     }
-}
-}
 }
