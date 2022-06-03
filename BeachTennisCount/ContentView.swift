@@ -32,9 +32,7 @@ struct ContentView: View {
         Spacer()
         NavigationLink(destination:
                         GameScreen(teamOne: teamOne,
-                                   teamTwo: teamTwo).onAppear {
-            print(points.teamOneSetPoints)
-        }
+                                   teamTwo: teamTwo)
         ) {
             VStack {
                 Image("Image")
@@ -45,7 +43,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color.red.edgesIgnoringSafeArea(.all)
+                Color.blue.edgesIgnoringSafeArea(.all)
                 VStack {
                     content.padding(38)
                 }

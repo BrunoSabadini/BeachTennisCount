@@ -11,7 +11,8 @@ class Points: ObservableObject {
     
     @Published var teamOneSetPoints: Int = 0
     @Published var teamTwoSetPoints: Int = 0
-    @Published var playAgain: Bool = false
+    @Published var playAgain: Bool? = false
+//    {didSet{print(playAgain)}}
     @Published var teamOnegamePoints: Int = 0
     @Published var teamTwogamePoints: Int = 0
     @Published var numberOfSets: Int = 3

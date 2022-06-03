@@ -30,12 +30,9 @@ struct GameScreen: View {
     
     var body: some View {
         ZStack {
-            NavigationLink("", isActive: Binding<Bool>.init(get: {
-                points.playAgain
-            }, set: { _ in})) {
+            NavigationLink("", tag: true, selection: $points.playAgain, destination: {
                 ScoreScreen(winner: points.whoWon == "oneWon" ? teamOne : teamTwo)
-            }
-            
+            })
             VStack {
                 HStack{
                     Spacer()
